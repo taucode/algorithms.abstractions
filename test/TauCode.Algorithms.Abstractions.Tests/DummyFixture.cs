@@ -1,24 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-namespace TauCode.Algorithms.Abstractions.Tests
+namespace TauCode.Algorithms.Abstractions.Tests;
+
+[TestFixture]
+public class DummyFixture
 {
-    [TestFixture]
-    public class DummyFixture
+    [Test]
+    public void DummyTest()
     {
-        [Test]
-        public void DummyTest()
-        {
-            // Arrange
+        // Arrange
 
-            // Act
+        // Act
 
-            // Assert
-            Assert.Pass("Added for pipeline.");
-        }
+        // Assert
+        Assert.Pass("Added for pipeline.");
     }
 }
