@@ -1,2 +1,2 @@
 # taucode.algorithms.abstractions
-TauCode algorithms abstractions library.
+TauCode algorithms abstractions library

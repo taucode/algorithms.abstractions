@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{86EC318D-85C2-4501-9B82-D21BE9D2352D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C2F7C377-93FA-404E-867F-26A4D5BC65C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{F179BFDC-7FC5-44E2-AD86-DD0394CDD849}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\TauCode.Algorithms.Abstractions.nuspec = nuget\TauCode.Algorithms.Abstractions.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{CBD4A65B-AA17-4F20-8463-85E97AF0BC47}"
+	ProjectSection(SolutionItems) = preProject
+		misc\changelog.txt = misc\changelog.txt
+		misc\todo.txt = misc\todo.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{AD42D853-DC2E-48C9-BF4C-A8148B277982}"
+	ProjectSection(SolutionItems) = preProject
+		build\azure-pipelines-dev.yml = build\azure-pipelines-dev.yml
+		build\azure-pipelines-main.yml = build\azure-pipelines-main.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Algorithms.Abstractions", "src\TauCode.Algorithms.Abstractions\TauCode.Algorithms.Abstractions.csproj", "{9F5341A6-D08D-4A82-920B-5A93E8B95CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Algorithms.Abstractions.Tests", "test\TauCode.Algorithms.Abstractions.Tests\TauCode.Algorithms.Abstractions.Tests.csproj", "{0480EBAB-FA14-4AA8-A41E-C128D702B331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F5341A6-D08D-4A82-920B-5A93E8B95CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5341A6-D08D-4A82-920B-5A93E8B95CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5341A6-D08D-4A82-920B-5A93E8B95CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5341A6-D08D-4A82-920B-5A93E8B95CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0480EBAB-FA14-4AA8-A41E-C128D702B331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0480EBAB-FA14-4AA8-A41E-C128D702B331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0480EBAB-FA14-4AA8-A41E-C128D702B331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0480EBAB-FA14-4AA8-A41E-C128D702B331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F5341A6-D08D-4A82-920B-5A93E8B95CDF} = {86EC318D-85C2-4501-9B82-D21BE9D2352D}
+		{0480EBAB-FA14-4AA8-A41E-C128D702B331} = {C2F7C377-93FA-404E-867F-26A4D5BC65C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B2C3FDA-D01B-416D-A52B-F9530B3E7D56}
+	EndGlobalSection
+EndGlobal
